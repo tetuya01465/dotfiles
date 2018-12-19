@@ -17,11 +17,13 @@ fi
 # Git-Completion
 ##########
 source ~/.bash/git-completion.bash
-PS1='\u@\h:\W`~/.bash/gitbranch.bash` \$ '
 
-export GOPATH="/Users/kita/go"
+if type __git_ps1 > /dev/null 2>&1 ; then
+  PROMPT_COMMAND="__git_ps1 '\h:\W \u' '\\\$ '; $PROMPT_COMMAND"
+  GIT_PS1_SHOWDIRTYSTATE=true
+  GIT_PS1_SHOWSTASHSTATE=true
+  GIT_PS1_SHOWUNTRACKEDFILES=true
+  GIT_PS1_SHOWUPSTREAM="auto"
+  GIT_PS1_SHOWCOLORHINTS=true
+fi
 
-#export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
-
-export PATH="$HOME/.pyenv/shims:$PATH"
-export MONGODB_URI=mongodb://localhost
