@@ -18,6 +18,6 @@ do
     #[[ "$f" = ".gitconfig.local.template" ]] && continue
     #[[ "$f" = ".gitmodules" ]] && continue
 
-    ln -snfv ~/dotfiles/"$f" ~/
+    ln -snfv "$THIS_DIR/$f" ~/
 done
 
