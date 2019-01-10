@@ -1,9 +1,9 @@
 blob-store
 compile-cache
 dev
+recovery
 storage
 .DS_Store
 .apm
 .node-gyp
 .npm
-

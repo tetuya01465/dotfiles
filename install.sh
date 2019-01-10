@@ -1,13 +1,22 @@
 #!/bin/bash
 
-set -u
-cd ~/work/dotfiles
+set -eu
+
 # 実行場所のディレクトリを取得
-THIS_DIR=$(cd $(dirname $0); pwd)
+THIS_DIR=$HOME/work/dotfiles
+
+if [ ! -d "$THIS_DIR" ]; then
+    git clone https://github.com/tetuya01465/dotfiles.git "$THIS_DIR"
+else
+    echo "$THIS_DIR already downloaded. Updating..."
+    cd "$THIS_DIR"
+    git stash
+    git checkout master
+    git pull origin master
+    echo
+fi
 
 cd $THIS_DIR
-git submodule init
-git submodule update
 
 echo "start setup..."
 
@@ -20,6 +29,15 @@ do
 
     ln -snfv "$THIS_DIR/$f" ~/
 done
+
+# install homebrew
+if ! command -v brew > /dev/null 2>&1; then
+    # Install homebrew: https://brew.sh/
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    echo
+fi
+brew bundle
+echo
 
 cat << END
 
