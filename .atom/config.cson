@@ -8,9 +8,11 @@
     ]
     telemetryConsent: "no"
   editor:
+    fontSize: 18
     preferredLineLength: 1000
     showIndentGuide: true
     showInvisibles: true
+    zoomFontWhenCtrlScrolling: true
   "exception-reporting":
     userId: "46ee98a6-e0de-4874-bc1e-dd381de91e7d"
   fonts:
