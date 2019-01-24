@@ -20,6 +20,7 @@ cask 'dash'
 cask 'cinch'
 cask 'bartender'
 cask 'skype'
+cask 'iterm2'
 
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
