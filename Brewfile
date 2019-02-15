@@ -21,6 +21,8 @@ cask 'cinch'
 cask 'bartender'
 cask 'skype'
 cask 'iterm2'
+cask 'applepi-baker'
+cask 'sdformatter'
 
 mas 'Evernote', id: 406056744
 mas "Slack", id: 803453959
