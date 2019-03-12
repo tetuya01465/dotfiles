@@ -6,6 +6,7 @@ brew 'htop'
 brew 'jq'
 brew "jsonlint"
 brew "bash-completion"
+brew "nodebrew"
 
 cask "alfred"
 cask 'atom'
@@ -23,6 +24,7 @@ cask 'skype'
 cask 'iterm2'
 cask 'applepi-baker'
 cask 'sdformatter'
+cask 'firefox'
 
 mas 'Evernote', id: 406056744
 mas "Slack", id: 803453959
