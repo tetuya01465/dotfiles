@@ -8,3 +8,4 @@ packages
 .apm
 .node-gyp
 .npm
+split-diff
