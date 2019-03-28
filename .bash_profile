@@ -7,3 +7,7 @@ fi
 
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export LSCOLORS=cxgxcxdxhbegedabagacad
+
+export HISTIGNORE='history:pwd:ls:ls *:ll'
+export PROMPT_COMMAND='history -a; history -r'
+

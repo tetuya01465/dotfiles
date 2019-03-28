@@ -25,6 +25,7 @@ cask 'iterm2'
 cask 'applepi-baker'
 cask 'sdformatter'
 cask 'firefox'
+cask 'github'
 
 mas 'Evernote', id: 406056744
 mas "Slack", id: 803453959
