@@ -11,3 +11,11 @@ export LSCOLORS=cxgxcxdxhbegedabagacad
 export HISTIGNORE='history:pwd:ls:ls *:ll'
 export PROMPT_COMMAND="history -a; history -r; $PROMPT_COMMAND"
 
+export GOPATH=$HOME/go
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH=$PATH:$HOME/go/bin
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+

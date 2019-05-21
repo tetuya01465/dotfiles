@@ -9,3 +9,5 @@ packages
 .node-gyp
 .npm
 split-diff
+.atom-socket-secret-*
+

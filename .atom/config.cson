@@ -17,8 +17,7 @@
     userId: "46ee98a6-e0de-4874-bc1e-dd381de91e7d"
   fonts:
     fontFamily: "FiraCode"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "terminal-plus":
     core: {}
   welcome:
