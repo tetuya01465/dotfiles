@@ -12,6 +12,10 @@ brew "dep"
 brew "nkf"
 brew "pyenv"
 brew "pipenv"
+brew "peco"
+brew "bash"
+brew "qt5"
+brew "bazaar"
 
 cask "alfred"
 cask 'atom'
