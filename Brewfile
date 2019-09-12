@@ -36,7 +36,6 @@ cask 'applepi-baker'
 cask 'sdformatter'
 cask 'firefox'
 cask 'github'
-cask 'station'
 cask 'typora'
 
 mas 'Evernote', id: 406056744

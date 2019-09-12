@@ -336,6 +336,9 @@
                 }
             ],
             "name": "HHK",
+            "parameters": {
+                "delay_milliseconds_before_open_device": 1000
+            },
             "selected": false,
             "simple_modifications": [
                 {
@@ -1209,6 +1212,9 @@
                 }
             ],
             "name": "vortex core",
+            "parameters": {
+                "delay_milliseconds_before_open_device": 1000
+            },
             "selected": true,
             "simple_modifications": [
                 {
@@ -1370,6 +1376,9 @@
                 }
             ],
             "name": "MD600",
+            "parameters": {
+                "delay_milliseconds_before_open_device": 1000
+            },
             "selected": false,
             "simple_modifications": [
                 {
