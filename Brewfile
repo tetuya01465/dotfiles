@@ -37,8 +37,8 @@ cask 'sdformatter'
 cask 'firefox'
 cask 'github'
 cask 'typora'
+cask 'station'
 
 mas 'Evernote', id: 406056744
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
-
