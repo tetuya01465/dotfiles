@@ -10,9 +10,9 @@ alias la='ls -la'
 #########
 # Bash-Completion
 #########
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-  . `brew --prefix`/etc/bash_completion
-fi
+#if [ -f `brew --prefix`/etc/bash_completion ]; then
+#  . `brew --prefix`/etc/bash_completion
+#fi
 
 ##########
 # Git-Completion
@@ -39,7 +39,7 @@ peco-select-history() {
         history -d $((HISTCMD-1))
         echo "No history" >&2
         return
-    fi  
+    fi
 
     local CMD=$(fc -l $FIRST | sort -k 2 -k 1nr | uniq -f 1 | sort -nr | sed -E 's/^[0-9]+[[:blank:]]+//' | peco | head -n 1)
 
@@ -48,7 +48,7 @@ peco-select-history() {
 
         if type osascript > /dev/null 2>&1 ; then
             (osascript -e 'tell application "System Events" to keystroke (ASCII character 30)' &)
-        fi  
+        fi
     else
         history -d $((HISTCMD-1))
     fi
