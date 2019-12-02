@@ -6,7 +6,6 @@
     },
     "profiles": [
         {
-            "name": "default",
             "complex_modifications": {
                 "parameters": {
                     "basic.simultaneous_threshold_milliseconds": 50,
@@ -336,6 +335,7 @@
                     }
                 }
             ],
+            "name": "default",
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
@@ -406,7 +406,6 @@
             }
         },
         {
-            "name": "USB",
             "complex_modifications": {
                 "parameters": {
                     "basic.simultaneous_threshold_milliseconds": 50,
@@ -1074,59 +1073,6 @@
                                 "type": "basic"
                             }
                         ]
-                    },
-                    {
-                        "description": "for Parallels Desktop",
-                        "manipulators": [
-                            {
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_if",
-                                        "bundle_identifiers": [
-                                            "^com\\.parallels\\.desktop\\.console"
-                                        ]
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "left_gui",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_control"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_if",
-                                        "bundle_identifiers": [
-                                            "^com\\.parallels\\.desktop\\.console"
-                                        ]
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "left_control",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_command"
-                                    }
-                                ]
-                            }
-                        ]
                     }
                 ]
             },
@@ -1304,6 +1250,7 @@
                     }
                 }
             ],
+            "name": "USB",
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },

@@ -1,21 +1,17 @@
 cask_args appdir: '/Applications'
-tap "caskroom/cask"
 
 brew 'git'
 brew 'htop'
 brew 'jq'
 brew "jsonlint"
-brew "bash-completion"
+brew "zsh-completions"
 brew "nodebrew"
 brew "go"
-brew "dep"
 brew "nkf"
 brew "pyenv"
 brew "pipenv"
 brew "peco"
-brew "bash"
 brew "qt5"
-brew "bazaar"
 
 cask "alfred"
 cask 'atom'
@@ -27,7 +23,6 @@ cask 'google-backup-and-sync'
 cask 'karabiner-elements'
 cask 'visual-studio-code'
 cask 'keepassx'
-cask 'dash'
 cask 'cinch'
 cask 'bartender'
 cask 'skype'
@@ -43,4 +38,3 @@ mas 'Evernote', id: 406056744
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
 mas "gTasks - Tasks for Google", id: 1054781057
-
