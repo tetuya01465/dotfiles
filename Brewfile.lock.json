@@ -396,6 +396,14 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "1password": {
+        "version": "7.4.1",
+        "options": {
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
@@ -405,7 +413,7 @@
       },
       "Slack": {
         "id": "803453959",
-        "version": "4.1.2"
+        "version": "4.2.0"
       },
       "Xcode": {
         "id": "497799835",

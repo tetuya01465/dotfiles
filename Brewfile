@@ -12,6 +12,7 @@ brew "pyenv"
 brew "pipenv"
 brew "peco"
 brew "qt5"
+brew "ghq"
 
 cask "alfred"
 cask 'atom'
