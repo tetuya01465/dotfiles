@@ -29,7 +29,22 @@ alias la='ls -la'
 #fi
 
 
-
 alias s='ssh $(grep -iE "^host[[:space:]]+[^*]" ~/.ssh/config|peco|awk "{print \$2}")'
+
+
+##########
+# peco-src
+# ghq list -p -> peco -> cd
+##########
+function peco-src () {
+  local selected_dir=$(ghq list -p | peco --query "$LBUFFER")
+  if [ -n "$selected_dir" ]; then
+    BUFFER="cd ${selected_dir}"
+    zle accept-line
+  fi
+  zle clear-screen
+}
+zle -N peco-src
+bindkey '^]' peco-src
 
 export QT_HOMEBREW=true
