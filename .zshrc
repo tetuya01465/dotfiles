@@ -19,6 +19,10 @@ alias la='ls -la'
 ##########
 #source ~/.bash/git-completion.bash
 
+fpath=(~/.zsh/completion $fpath)
+autoload -U compinit
+compinit -u
+
 #if type __git_ps1 > /dev/null 2>&1 ; then
 #  PROMPT_COMMAND="__git_ps1 '\u@\h:\W' '\\\$ '; $PROMPT_COMMAND"
 #  GIT_PS1_SHOWDIRTYSTATE=true
