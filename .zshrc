@@ -223,6 +223,8 @@ function peco-src () {
   zle clear-screen
 }
 zle -N peco-src
-bindkey '^]' peco-src
+bindkey '^;' peco-src
+
+alias gcd='cd $(ghq root)/$(ghq list | peco)'
 
 export QT_HOMEBREW=true
