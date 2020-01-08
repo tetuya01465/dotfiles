@@ -27,7 +27,7 @@ do
     #[[ "$f" = ".gitconfig.local.template" ]] && continue
     #[[ "$f" = ".gitmodules" ]] && continue
 
-    ln -snfv "$THIS_DIR/$f" ~/
+    ln -snfv "$THIS_DIR$f" ~/
 done
 
 # install homebrew
