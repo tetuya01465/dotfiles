@@ -449,6 +449,14 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "boostnote": {
+        "version": "0.13.0",
+        "options": {
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
