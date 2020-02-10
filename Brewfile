@@ -13,6 +13,7 @@ brew "pipenv"
 brew "peco"
 brew "qt5"
 brew "ghq"
+brew "tree"
 
 cask "alfred"
 cask 'atom'

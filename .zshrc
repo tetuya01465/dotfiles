@@ -22,6 +22,7 @@ setopt print_eight_bit
 alias ls='ls -FAG'
 alias ll='ls -l'
 alias la='ls -la'
+alias fpath='ll -d $(find `pwd`)'
 
 # git
 alias gs='git status'
