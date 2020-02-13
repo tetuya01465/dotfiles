@@ -38,6 +38,7 @@ cask '1Password'
 cask 'sourcetree'
 cask 'kindle'
 cask 'boostnote'
+cask 'lastpass'
 
 mas 'Evernote', id: 406056744
 mas "Slack", id: 803453959
