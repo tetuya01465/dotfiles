@@ -16,6 +16,7 @@ brew "ghq"
 brew "tree"
 brew "docker-machine"
 brew "docker-machine-parallels"
+brew "packer"
 
 cask "alfred"
 cask 'atom'
