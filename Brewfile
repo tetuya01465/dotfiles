@@ -15,7 +15,7 @@ brew "qt5"
 brew "ghq"
 brew "tree"
 brew "docker-machine"
-brew "docker-machine--parallels"
+brew "docker-machine-parallels"
 
 cask "alfred"
 cask 'atom'
