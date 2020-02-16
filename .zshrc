@@ -224,7 +224,7 @@ function peco-src () {
   zle clear-screen
 }
 zle -N peco-src
-bindkey '^;' peco-src
+bindkey 'M-[' peco-src
 
 alias gcd='cd $(ghq root)/$(ghq list | peco)'
 
