@@ -591,6 +591,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "vmware-fusion": {
+        "version": "11.5.1-15018442",
+        "options": {
+          "full_name": "vmware-fusion",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
