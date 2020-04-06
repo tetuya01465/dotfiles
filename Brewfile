@@ -50,5 +50,4 @@ mas 'Evernote', id: 406056744
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
 mas "gTasks - Tasks for Google", id: 1054781057
-mas "Microsoft Remote Desktop 10", id: 1295203466
 
