@@ -600,6 +600,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "deepl": {
+        "version": "1.6.0",
+        "options": {
+          "full_name": "deepl",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
@@ -609,11 +618,11 @@
       },
       "Slack": {
         "id": "803453959",
-        "version": "4.3.3"
+        "version": "4.4.1"
       },
       "Xcode": {
         "id": "497799835",
-        "version": "11.3.1"
+        "version": "11.4"
       },
       "gTasks - Tasks for Google": null
     }
@@ -625,8 +634,8 @@
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "1a9e0d220fa4cb79808ef9ac54d6c95788e6d8ae",
         "CLT": "11.0.33.16",
-        "Xcode": "11.3.1",
-        "macOS": "10.15.3"
+        "Xcode": "11.4",
+        "macOS": "10.15.4"
       }
     }
   }
