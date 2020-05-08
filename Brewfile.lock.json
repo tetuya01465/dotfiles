@@ -609,6 +609,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "michaelvillar-timer": {
+        "version": "1.4",
+        "options": {
+          "full_name": "michaelvillar-timer",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
@@ -618,7 +627,7 @@
       },
       "Slack": {
         "id": "803453959",
-        "version": "4.4.1"
+        "version": "4.4.2"
       },
       "Xcode": {
         "id": "497799835",

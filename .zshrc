@@ -16,6 +16,19 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 ## 日本語ファイル名を表示可能にする
 setopt print_eight_bit
 
+## コマンド履歴関係
+HISTFILE=~/.zsh_history      # ヒストリファイルを指定
+HISTSIZE=100000              # ヒストリに保存するコマンド数
+SAVEHIST=100000              # ヒストリファイルに保存するコマンド数
+setopt hist_ignore_dups      # 直前と同じコマンドラインはヒストリに追加しない
+setopt append_history        # 履歴を追加 (毎回 .zsh_history を作るのではなく)
+setopt share_history         # 最初のタブ以外のタブの履歴もヒストリに残す
+setopt inc_append_history    # 履歴をインクリメンタルに追加
+setopt hist_no_store         # historyコマンドは履歴に登録しない
+setopt hist_reduce_blanks    # 余分な空白は詰めて記録
+
+eval $(docker-machine env 2019-box)
+
 ###############
 # alias
 ###############
