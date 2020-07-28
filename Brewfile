@@ -46,6 +46,7 @@ cask 'vagrant'
 cask 'virtualbox'
 cask 'deepl'
 cask 'michaelvillar-timer'
+cask 'adobe-acrobat-reader'
 
 mas 'Evernote', id: 406056744
 mas "Slack", id: 803453959
