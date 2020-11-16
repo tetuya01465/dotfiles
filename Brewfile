@@ -45,12 +45,12 @@ cask 'lastpass'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'deepl'
-cask 'michaelvillar-timer'
 cask 'adobe-acrobat-reader'
+cask 'chrysalis'
+cask 'gitify'
 
 mas 'Evernote', id: 406056744
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
 mas "gTasks - Tasks for Google", id: 1054781057
 mas "Amphetamine", id: 937984704
-
