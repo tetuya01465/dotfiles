@@ -17,6 +17,7 @@ brew "tree"
 brew "docker-machine"
 brew "docker-machine-parallels"
 brew "packer"
+brew "translate-shell"
 
 cask "alfred"
 cask 'atom'
