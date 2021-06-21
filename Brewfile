@@ -18,6 +18,7 @@ brew "docker-machine"
 brew "docker-machine-parallels"
 brew "packer"
 brew "translate-shell"
+brew "graphviz"
 
 cask "alfred"
 cask 'atom'
