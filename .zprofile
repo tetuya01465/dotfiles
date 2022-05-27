@@ -8,12 +8,16 @@ fi
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export LSCOLORS=cxgxcxdxhbegedabagacad
 
-export COMPOSE_FORCE_WINDOWS_HOST=1
+#export COMPOSE_FORCE_WINDOWS_HOST=1
 
 export GOPATH=$HOME/work
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH=$PATH:$GOPATH/bin
 export GO111MODULE=on
+
+## export VAGRANT_EXPERIMENTAL="disks"
+## Dockerコンテナのディスク容量
+## export DOCKER_STORAGE_OPTIONS="--storage-opt dm.basesize=40G"
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"

@@ -27,7 +27,7 @@ setopt inc_append_history    # 履歴をインクリメンタルに追加
 setopt hist_no_store         # historyコマンドは履歴に登録しない
 setopt hist_reduce_blanks    # 余分な空白は詰めて記録
 
-eval $(docker-machine env 2019-box)
+#eval $(docker-machine env 2019)
 
 ###############
 # alias
