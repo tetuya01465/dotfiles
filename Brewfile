@@ -22,6 +22,7 @@ brew "translate-shell"
 brew "graphviz"
 brew "gpg"
 brew "pinentry-mac"
+brew "direnv"
 
 cask "alfred"
 cask 'atom'

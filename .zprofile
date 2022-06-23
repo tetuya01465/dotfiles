@@ -19,6 +19,12 @@ export GO111MODULE=on
 ## Dockerコンテナのディスク容量
 ## export DOCKER_STORAGE_OPTIONS="--storage-opt dm.basesize=40G"
 
+# direnv
+eval "$(direnv hook zsh)"
+
+# githubでgpg署名するため
+export GPG_TTY=$(tty)
+
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
