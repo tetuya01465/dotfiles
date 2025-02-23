@@ -2,6 +2,9 @@ if [ -f ~/.zshrc ]; then
     . ~/.zshrc
 fi
 
+# Set PATH, MANPATH, etc., for Homebrew.
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # default
 #export LSCOLORS=exfxcxdxbxegedabagacad
 
@@ -11,7 +14,8 @@ export LSCOLORS=cxgxcxdxhbegedabagacad
 #export COMPOSE_FORCE_WINDOWS_HOST=1
 
 export GOPATH=$HOME/work
-export GOROOT="$(brew --prefix golang)/libexec"
+#export GOROOT="$(brew --prefix golang)/libexec"
+export GOROOT=$(go1.23.4 env GOROOT)
 export PATH=$PATH:$GOPATH/bin
 export GO111MODULE=on
 

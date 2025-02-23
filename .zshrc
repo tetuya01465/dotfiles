@@ -27,6 +27,9 @@ setopt inc_append_history    # 履歴をインクリメンタルに追加
 setopt hist_no_store         # historyコマンドは履歴に登録しない
 setopt hist_reduce_blanks    # 余分な空白は詰めて記録
 
+# curl
+setopt nonomatch             # curl時にglobに使うメタ文字(*,[],?…)が含まれているとno matches foundになる
+
 #eval $(docker-machine env 2019)
 
 ###############
@@ -242,3 +245,5 @@ bindkey '^r' peco-src
 alias gcd='cd $(ghq root)/$(ghq list | peco)'
 
 export QT_HOMEBREW=true
+export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
